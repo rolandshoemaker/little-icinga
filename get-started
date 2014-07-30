@@ -1,0 +1,9 @@
+as root
+	icli -z D -C -l hosts # down hosts
+gatewayderrr                        DOWN     check_ping: Invalid hostname/address - gatewayderrr
+	icli -z o -C -l hosts # up hosts
+box                                  OK      PING OK - Packet loss = 0%, RTA = 0.12 ms
+calcifer                             OK      PING OK - Packet loss = 0%, RTA = 0.70 ms
+dionysus                             OK      PING OK - Packet loss = 0%, RTA = 0.22 ms
+... etc
+
